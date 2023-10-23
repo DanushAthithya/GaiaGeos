@@ -1,8 +1,10 @@
-import './App.css';
+import "./App.css";
+import Form from "./form";
 
 function App() {
-  return(
+  return (
     <>
+      <Form />
     </>
   );
 }

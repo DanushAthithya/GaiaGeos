@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+.vl {
+  border-left: 6px solid #237cc4;
+  height: 1.5rem;
+}
+.image-border {
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px #ccc;
+}
+.h2-blue {
+  color: #1d3dc3;
+}
+.piles-testing h4 {
+  font-weight: 400;
+}
+.piles-testing .section-heading,
+.piles-testing .sub-heading {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+h3.head-3-tag-style {
+  background: #1d3dc3;
+  border-radius: 0 20px 20px 0;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 30px 10px 10px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+ul.content-para {
+  list-style: none;
+  padding: 0;
+}
+ul.content-para li {
+  display: flex;
+  margin-bottom: 11px;
+}
+ul.content-para li .font-icon {
+  color: #fd5221;
+  margin-right: 25px;
+}
+.cont-lft-blck {
+  background: url(../img/contact-block.jpg);
+  background-repeat: no-repeat;
+  padding: 40px 30px; /*60px 30px;*/
+}
+.cont-lft-blck h4 {
+  color: #fff;
+}
+.cont-lft-blck p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 29px;
+}
+.right-block {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #ccc;
+}
+.right-block {
+  background: #fff;
+  padding: 40px 40px 60px;
+  right: 100px;
+  top: 160px;
+}
+.right-block {
+  position: relative;
+}
+.right-block h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.right-block h5 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.form-table {
+  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+}
+.cmn-cls {
+  margin-top: 15px;
+}
+.block-1 input,
+.block-2 input,
+.block-3 input,
+.block-4 input {
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 20px;
+  outline: none;
+  padding-bottom: 10px;
+  width: 100%;
+}
+button.form-send {
+  background: #fd5221;
+  border: none;
+  border-radius: 28px;
+  bottom: -25px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 15px 35px;
+  position: absolute;
+  right: 38px;
+  text-align: right;
+}
+.reach-us-block {
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 70px 0 160px;
+}
+.block-5 textarea {
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 20px;
+  outline: none;
+  padding-bottom: 10px;
+  width: 100%;
+}
+.squid-outer {
+  display: flex;
+  margin: 30px 0;
+}
+.squid-left img {
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px #ccc;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.squid-rght {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+.offshore-banner {
+  background: url(../img/slider/pile-banner1.jpg);
+}
+.heading-part-offshore {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.offshore-left img {
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px #ccc;
+  width: 100%;
+}
+.offshore-page h3 {
+  border-bottom: 1px solid #e64a1d;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-bottom: 0;
+  width: auto;
+}
+.offshore-page h3,
+.offshore-page p {
+  text-align: center;
+}
+.geotechnical-investigation-list-rght,
+.GIL-left {
+  border-radius: 20px;
+  box-shadow: 8px 8px 10px #ccc;
+  overflow: hidden;
+  width: 100%;
+}
+.report-cap {
+  margin: 50px 0;
+}
+h2.geotechnical-investigation {
+  color: #1756c3;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin: 40px 0;
+}
+.GIL-right h2,
+.GIL-right p {
+  text-align: left;
+}
+.onland-banner {
+  background: url(../img/slider/onland-banner.jpeg);
+}
+.soil-banner {
+  background: url(../img/slider/pile-banner1.jpg);
+}
+.desktop-banner {
+  background: url(../img/slider/desktop-banner.jpeg);
+}
+ul.soil-rock-list {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+}
+ul.soil-rock-list > li {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+ul.soil-rock-list > li {
+  background: #0f34b4;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+ul.soil-rock-list > ul > li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+ul.soil-rock-list-list > ul {
+  margin-bottom: 20px;
+}
+h4.test-soil-sample-head-4 {
+  margin: 40px 0;
+  font-weight: 400;
+}
+h5.test-soil-sample-head-5 {
+  font-weight: 500;
+}
+h3.test-soil-sample {
+  margin-top: 30px;
+  font-weight: 500;
+}
+ul.soil-rock-list-list {
+  margin-top: 40px;
+}
+ul.soil-rock-list-list > li {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+ul.soil-rock-list-list > ul > li {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.desktop-eng .blue-text {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.desktop-eng .content-para {
+  align-items: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.desktop-eng .content-para {
+  padding-left: 0;
+}
+h2.head-style {
+  color: rgb(0, 44, 145);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+.tip-banner {
+  background: url(../img/slider/tip-banner.jpg) no-repeat;
+  background-size: cover;
+}
+.forensic-banner {
+  background: url(../img/slider/forensic-banner.jpg);
+}
+.forensic-sectn .col-md-3 {
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.forensic-sectn .col-md-3 .inner-block-elem {
+  border: 1px solid rgb(239, 238, 238);
+  box-shadow: rgb(239 238 238) -8px 10px 10px;
+}
+.forensic-sectn .inner-block-elem {
+  border-radius: 10px;
+  max-height: 400px;
+  min-height: 400px;
+  overflow: hidden;
+  padding: 20px 14px;
+  position: relative;
+  text-align: center;
+}
+.inner-block-elem h4 {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.inner-block-elem p {
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 20px;
+  text-align: justify;
+}
+.forensic-sectn .col-md-3:nth-child(even) .inner-block-elem {
+  background: rgb(0, 7, 54);
+  color: rgb(255, 255, 255);
+}
+.forensic-sectn .col-md-3:nth-child(even) h4,
+.forensic-sectn .col-md-3:nth-child(even) p {
+  color: #fff;
+}
+a.learn-more-btn-css {
+  background: #dd6e00;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.industry-name.service-img-blck {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: -6px 6px 10px #000;
+  overflow: hidden;
+  position: relative;
+}
+.forensic-contain,
+.includes-slide {
+  position: relative;
+}
+.forensic-contain:before,
+.includes-slide:before {
+  background: url(../img/forensic-side-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 204px;
+  position: absolute;
+  width: 55px;
+  z-index: 999;
+}
+.includes-slide .btn {
+  background: #dd6e00 !important;
+}
+.includes-slide h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.includes-slide h5 {
+  color: #002c91;
+  font-weight: 400;
+}
+.includes-slide:before {
+  right: 0;
+  top: 0;
+}
+.inner-block-elem .forensic-icon {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .btn-sarathy {
+    left: 0 !important;
+  }
+  span.service-job {
+    font-size: 15px;
+  }
+}
